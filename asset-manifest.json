@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anujpanta1/static/css/main.71cc2282.css",
+    "main.js": "/anujpanta1/static/js/main.c1f009ac.js",
+    "index.html": "/anujpanta1/index.html",
+    "main.71cc2282.css.map": "/anujpanta1/static/css/main.71cc2282.css.map",
+    "main.c1f009ac.js.map": "/anujpanta1/static/js/main.c1f009ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71cc2282.css",
+    "static/js/main.c1f009ac.js"
+  ]
+}
