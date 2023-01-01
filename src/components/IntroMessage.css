@@ -2,24 +2,48 @@
     color: white;
     margin: 0 auto;
     text-align: left;
-    max-width: 85%;
     width: fit-content;
-    font-size: 4.5rem;
+    font-size: clamp(3rem, 5vw, 4.55rem);
     font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+
+    text-transform: lowercase;
+
+    padding: 0rem 1rem;
 }
 
 .intro-message .blue {
     color: hsla(216, 93%, 57%);
 }
 
+.intro-message .blue .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .intro-message .red {
     color: hsla(360, 82%, 60%);
 }
+
+.intro-message .red .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .intro-message .yellow {
     color: hsla(43, 87%, 68%);
 }
+
+.intro-message .yellow .letter {
+    display: inline-block;
+}
+
 .intro-message .green {
     color: hsla(108, 75%, 45%);
+}
+
+.intro-message .green .letter {
+    display: inline-block;
 }
 
 .top-message .text-wrapper {
@@ -44,4 +68,12 @@
 
 .top-message .top-letters {
     display: inline-block;
+}
+
+.body-message {
+    white-space: nowrap;
+}
+
+.body-message p {
+    margin: 1rem 0;
 }
