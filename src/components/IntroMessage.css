@@ -3,7 +3,7 @@
     margin: 0 auto;
     text-align: left;
     width: fit-content;
-    font-size: clamp(3rem, 5vw, 4.55rem);
+    font-size: clamp(3rem, 7vw, 4.55rem);
     font-family: "Cabinet Grotesk", sans-serif;
 
     white-space: nowrap;
@@ -13,10 +13,11 @@
     padding: 0rem 1rem;
 
     height: 100vh;
+    max-height: 1000px;
 }
 
 .intro-message .blue {
-    color: hsla(216, 93%, 57%);
+    color: hsla(215, 82%, 60%);
 }
 
 .intro-message .blue .letter {
@@ -34,7 +35,7 @@
 }
 
 .intro-message .yellow {
-    color: hsla(43, 87%, 68%);
+    color: hsla(40, 82%, 60%);
 }
 
 .intro-message .yellow .letter {
@@ -42,7 +43,7 @@
 }
 
 .intro-message .green {
-    color: hsla(108, 75%, 45%);
+    color: hsla(100, 82%, 60%);
 }
 
 .intro-message .green .letter {

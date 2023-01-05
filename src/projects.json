@@ -1,21 +1,5 @@
 {
-    "projects": [
-        {
-            "name": "Splatter Bug",
-            "status": "work in progress",
-            "purpose": "Create a full stack bug tracking application.",
-            "description": "Splatter Bug offers a full service to managers and team members. Managers control teams where developers can easily record their bugs and errors. Splatter bug's front end is build with React, and it connects to my Node API that works with my MongoDB database.",
-            "skills": [
-                "React",
-                "React Router",
-                "Framer UI",
-                "Node.js",
-                "MongoDB",
-                "Mongoose",
-                "JWT Authentication"
-            ],
-            "url": "https://github.com/AnujPanta1/quack-quack"
-        },
+    "asdf": [
         {
             "name": "the daily poll",
             "status": "complete",
@@ -47,6 +31,30 @@
             "description": "It's basically a website that does everyhting on the front end. It's gonna like take your music and cobine it with your friends music and then you can see cool shit.",
             "skills": ["React", "React Router", "Framer UI", "Spofity API"],
             "url": "www.google.com"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Splatter Bug",
+            "status": "in-progress",
+            "description": "A simple to use bug tracking service providing managers and teams a great way to track their projects. It's a full stack application created from Node.js, React, and the backend is MongoDB.",
+            "skills": [
+                "React",
+                "React Router",
+                "Framer UI",
+                "Node.js",
+                "MongoDB",
+                "Mongoose",
+                "JWT Authentication"
+            ],
+            "url": "https://github.com/AnujPanta1/quack-quack"
+        },
+        {
+            "name": "Personal Website",
+            "status": "in-progress",
+            "description": "I created this website as a way to track my progress and display my projects. It was a great way to practice creating react websites with animations!",
+            "skills": ["React", "Animejs"],
+            "url": "https://github.com/AnujPanta1/quack-quack"
         }
     ]
 }

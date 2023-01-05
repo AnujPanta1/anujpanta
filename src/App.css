@@ -1,5 +1,12 @@
 body {
     background-color: black;
-    padding: 0;
+    padding: 0 5rem;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+.title {
+    font-size: clamp(3rem, 5vw, 4.55rem);
+    font-family: "Cabinet Grotesk", sans-serif !important;
     margin: 0;
 }

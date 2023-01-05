@@ -1,29 +1,24 @@
 .projects {
-    padding: 0 1rem;
-    margin: 0 2rem;
     color: white;
 
     text-transform: lowercase;
 }
 
 .projects .title {
-    font-size: 1.3rem;
-    color: hsla(216, 93%, 57%);
-    font-size: 14px;
-    font-size: clamp(3rem, 5vw, 4.55rem);
-    font-family: "Cabinet Grotesk", sans-serif;
+    color: hsla(360, 82%, 60%);
     font-weight: bold;
-
     margin: 0;
 }
 
 .projects .container {
     outline: 1px solid wihte;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card {
-    font-size: 1.6rem;
-    width: 35rem;
-    font-weight: bold;
-    font-family: "Satoshi", sans-serif;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
 }

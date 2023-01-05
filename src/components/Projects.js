@@ -19,25 +19,27 @@ const Projects = () => {
     );
 };
 
-const ProjectCard = (props) => {
-    const proj = props.proj;
+// const ProjectCard = (props) => {
+//     const proj = props.proj;
 
-    return (
-        <div className="project-card">
-            <p>{proj["name"]}</p>
-            <p>
-                Description |<br />
-                {proj["description"]}
-            </p>
-            <p>
-                Skills |<br />
-                {proj["skills"].map((skill, i) => {
-                    return <p key={i}>{skill}</p>;
-                })}
-            </p>
-            <p>Git Hub | Live </p>
-        </div>
-    );
+//     let skills = ": ";
+
+//     for (let skill of proj["skills"]) {
+//         skills += skill + ", ";
+//     }
+//     skills = skills.slice(0, skills.length - 2);
+//     return (
+//         <div className="project-card">
+//             <p>{proj["name"]}</p>
+//             <p>Description: {proj["description"]}</p>
+//             Skills{skills}
+//             <p>Git Hub</p>
+//         </div>
+//     );
+// };
+
+const ProjectCard = (props) => {
+    return <div className="project-card">hi</div>;
 };
 
 export default Projects;

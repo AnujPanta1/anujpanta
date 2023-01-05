@@ -77,16 +77,18 @@ const IntroMessage = () => {
             <p className="top-message">
                 <span className="text-wrapper">
                     <span className="line"></span>
-                    <span className="top-letters">hi im anuj panta</span>
+                    <span className="top-letters">
+                        hi im <span className="name">anuj panta</span>
+                    </span>
                 </span>
             </p>
             <div className="body-message" style={{}}>
                 <p>
-                    I'm a student at <span className="blue">UC Berkeley. </span>
-                    i love
+                    I'm a student at <span className="blue">UC Berkeley </span>i
+                    love
                 </p>
                 <p>
-                    working on exciting <span className="red">projects </span>
+                    working on exciting <span className="red">projects. </span>
                     and
                 </p>
                 <p>
