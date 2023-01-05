@@ -4,12 +4,15 @@
     text-align: left;
     width: fit-content;
     font-size: clamp(3rem, 5vw, 4.55rem);
-    font-family: "Poppins", sans-serif;
+    font-family: "Cabinet Grotesk", sans-serif;
+
     white-space: nowrap;
 
     text-transform: lowercase;
 
     padding: 0rem 1rem;
+
+    height: 100vh;
 }
 
 .intro-message .blue {

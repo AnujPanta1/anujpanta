@@ -1,12 +1,11 @@
 import "./App.css";
-import Background from "./components/Background";
 import IntroMessage from "./components/IntroMessage";
-
+import Projects from "./components/Projects";
 function App() {
     return (
         <div className="App">
-            <Background></Background>
             <IntroMessage></IntroMessage>
+            <Projects></Projects>
         </div>
     );
 }

@@ -5,112 +5,7 @@ import anime from "animejs";
 const IntroMessage = () => {
     useEffect(() => {
         messageAnimation();
-        blueAnimation();
-        redAnimation();
-        yellowAnimation();
-        greenAnimation();
     }, []);
-
-    const greenAnimation = () => {
-        const textWrapper = document.querySelector(".green .letters");
-        textWrapper.innerHTML = textWrapper.textContent.replace(
-            /\S/g,
-            "<span class='letter'>$&</span>"
-        );
-
-        anime
-            .timeline({ loop: true })
-            .add({
-                targets: ".green .letter",
-                rotateY: [-90, 0],
-                duration: 1000,
-                delay: (el, i) => 45 * i,
-            })
-            .add({
-                targets: ".green",
-                opacity: 0,
-                duration: 700,
-                easing: "easeOutExpo",
-                delay: 800,
-            });
-    };
-
-    const yellowAnimation = () => {
-        const textWrapper = document.querySelector(".yellow .letters");
-        textWrapper.innerHTML = textWrapper.textContent.replace(
-            /\S/g,
-            "<span class='letter'>$&</span>"
-        );
-
-        anime.timeline({ loop: true }).add({
-            targets: ".yellow .letter",
-            translateY: [anime.random(-40, -10), 0, anime.random(10, 40), 0],
-            duration: 1250,
-            easing: "easeOutSine",
-            delay: (el, i) => i * 200 + anime.random(-200, 200),
-            direction: "alternate",
-            loopBegin: () => {
-                // Reset the position of the letters at the beginning of each loop
-                let letters = document.querySelectorAll(".yellow .letter");
-                letters.forEach((letter) => {
-                    letter.style.transform = "translateY(0)";
-                });
-            },
-            complete: function (anim) {
-                // Start the next loop of the animation for each letter as soon as it's done
-                anim.play();
-            },
-        });
-    };
-
-    const redAnimation = () => {
-        let textWrapper = document.querySelector(".red");
-        textWrapper.innerHTML = textWrapper.textContent.replace(
-            /\S/g,
-            "<span class='letter'>$&</span>"
-        );
-
-        const speed = 1600;
-
-        const stagger = `-=${speed}`;
-
-        anime
-            .timeline({ loop: true })
-            .add({
-                targets: ".red .letter",
-                opacity: [0, 1],
-                easing: "easeOutBack",
-                duration: speed,
-            })
-            .add(
-                {
-                    targets: ".red .letter",
-                    scale: [0.05, 1.15],
-                    easing: "easeOutBack",
-                    duration: speed,
-                },
-                stagger
-            );
-    };
-
-    const blueAnimation = () => {
-        let textWrapper = document.querySelector(".blue");
-        textWrapper.innerHTML = textWrapper.textContent.replace(
-            /\S/g,
-            "<span class='letter'>$&</span>"
-        );
-
-        const speed = 500;
-
-        anime.timeline({ loop: true }).add({
-            targets: ".blue .letter",
-            translateY: [
-                { value: "-3rem", duration: speed, easing: "easeOutSine" },
-                { value: "0", duration: speed, easing: "easeOutSine" },
-            ],
-            delay: (el, i) => i * 150,
-        });
-    };
 
     const messageAnimation = () => {
         let textWrapper = document.querySelector(".top-message .top-letters");
@@ -206,8 +101,8 @@ const IntroMessage = () => {
                 <p>
                     around—feel free to
                     <span className="green">
-                        <span class="text-wrapper">
-                            <span class="letters"> contact me.</span>
+                        <span className="text-wrapper">
+                            <span className="letters"> contact me.</span>
                         </span>
                     </span>
                 </p>
