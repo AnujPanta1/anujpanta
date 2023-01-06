@@ -9,22 +9,6 @@
             "url": "https://github.com/AnujPanta1/quack-quack"
         },
         {
-            "name": "personal website",
-            "status": "complete",
-            "purpose": "Professionaly display my projects, passions, and fun.",
-            "description": "It's a simple website where you can answer a new poll.",
-            "skills": [
-                "React",
-                "React Router",
-                "Framer UI",
-                "Node.js",
-                "MongoDB",
-                "Mongoose",
-                "JWT Authentication"
-            ],
-            "url": "www.google.com"
-        },
-        {
             "name": "Spotify Music Mapping",
             "status": "not started",
             "purpose": "Create a fun project, creating a project that I wanted to share.",
@@ -54,7 +38,7 @@
             "status": "in-progress",
             "description": "I created this website as a way to track my progress and display my projects. It was a great way to practice creating react websites with animations!",
             "skills": ["React", "Animejs"],
-            "url": "https://github.com/AnujPanta1/quack-quack"
+            "url": "https://anujpanta1.github.io/anujpanta/"
         }
     ]
 }

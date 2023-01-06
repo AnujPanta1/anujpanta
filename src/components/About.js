@@ -5,11 +5,16 @@ const About = () => {
         <div className="about">
             <p className="title">About me</p>
             <p>
-                I'm an engineer seeking moonshot in the health / bio sector. I'm
-                also Stanford class of 2020 B.S. in Biomedical Computation, and
-                class of 2021 M.S. in Computer Science AI specialization. My
-                primary interests have been precision health, data flow, zero to
-                one, and the list is still growing.
+                Hey there! I'm Anuj, a{" "}
+                <span className="light">
+                    computer science and philosophy student
+                </span>{" "}
+                at UC Berkeley. I have a passion for using technology to create
+                and <span className="light">solve problems,</span> and I have
+                gained valuable experience through internships and personal
+                projects. I'm always looking for new ways to
+                <span className="light"> push myself and improve</span> my
+                skills. Thanks for stopping by my website.
             </p>
         </div>
     );

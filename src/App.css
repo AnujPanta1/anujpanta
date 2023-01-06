@@ -6,7 +6,7 @@ body {
 }
 
 .title {
-    font-size: clamp(3rem, 5vw, 4.55rem);
+    font-size: clamp(3rem, 5vw, 4.55rem) !important;
     font-family: "Cabinet Grotesk", sans-serif !important;
     margin: 0;
 }

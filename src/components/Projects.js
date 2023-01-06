@@ -21,9 +21,7 @@ const Projects = () => {
 
 // const ProjectCard = (props) => {
 //     const proj = props.proj;
-
 //     let skills = ": ";
-
 //     for (let skill of proj["skills"]) {
 //         skills += skill + ", ";
 //     }
