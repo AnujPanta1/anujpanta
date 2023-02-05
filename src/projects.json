@@ -1,22 +1,4 @@
 {
-    "asdf": [
-        {
-            "name": "the daily poll",
-            "status": "complete",
-            "purpose": "Develop a simple poll answering game.",
-            "description": "It's a simple website where you can answer a new poll daily and see what other users voted. The front end is React and it connects to a Firebase database on clientside.",
-            "skills": ["React", "Fire Base", "Chart.js"],
-            "url": "https://github.com/AnujPanta1/quack-quack"
-        },
-        {
-            "name": "Spotify Music Mapping",
-            "status": "not started",
-            "purpose": "Create a fun project, creating a project that I wanted to share.",
-            "description": "It's basically a website that does everyhting on the front end. It's gonna like take your music and cobine it with your friends music and then you can see cool shit.",
-            "skills": ["React", "React Router", "Framer UI", "Spofity API"],
-            "url": "www.google.com"
-        }
-    ],
     "projects": [
         {
             "name": "Splatter Bug",
@@ -35,6 +17,20 @@
         },
         {
             "name": "Personal Website",
+            "status": "in-progress",
+            "description": "I created this website as a way to track my progress and display my projects. It was a great way to practice creating react websites with animations!",
+            "skills": ["React", "Animejs"],
+            "url": "https://anujpanta1.github.io/anujpanta/"
+        },
+        {
+            "name": "The Daily Poll",
+            "status": "in-progress",
+            "description": "I created this website as a way to track my progress and display my projects. It was a great way to practice creating react websites with animations!",
+            "skills": ["React", "Animejs"],
+            "url": "https://anujpanta1.github.io/anujpanta/"
+        },
+        {
+            "name": "Spotify Project",
             "status": "in-progress",
             "description": "I created this website as a way to track my progress and display my projects. It was a great way to practice creating react websites with animations!",
             "skills": ["React", "Animejs"],

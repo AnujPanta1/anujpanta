@@ -88,7 +88,7 @@ const IntroMessage = () => {
                     love
                 </p>
                 <p>
-                    working on exciting <span className="red">projects. </span>
+                    working on exciting <span className="red">projects </span>
                     and
                 </p>
                 <p>
